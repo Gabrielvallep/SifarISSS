@@ -16,32 +16,39 @@
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                <div class="collapse navbar-collapse  d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link text-dark dropdown-toggle" data-bs-toggle="dropdown">Recetas</a>
+                            <a class="nav-link text-dark dropdown-toggle" role="button" data-toggle="dropdown">Recetas</a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" >Nueva receta</a></li>
-                                <li><a class="dropdown-item" asp-area="" >Lista de recetas</a></li>
-                
+                                <li><a class="dropdown-item">Nueva receta</a></li>
+                                <li><a class="dropdown-item">Lista de recetas</a></li>
+
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link text-dark dropdown-toggle" data-bs-toggle="dropdown">Medicamentos</a>
+                            <a class="nav-link text-dark dropdown-toggle" role="button" data-toggle="dropdown">Medicamentos</a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" >Nueva Medicamento</a></li>
-                                <li><a class="dropdown-item" Ingresar medicamento</a></li>
-                                <li><a class="dropdown-item" >Lista de medicamentos</a></li>
+                                <li><a class="dropdown-item">Nueva Medicamento</a></li>
+                                <li><a class="dropdown-item"> Ingresar medicamento</a></li>
+                                <li><a class="dropdown-item">Lista de medicamentos</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link text-dark dropdown-toggle"  data-bs-toggle="dropdown">Usuarios</a>
+                            <a class="nav-link text-dark dropdown-toggle" role="button" data-toggle="dropdown">Usuarios</a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" Nueva Usuario</a></li>
-                                <li><a class="dropdown-item" >Lista de usuarios</a></li>
+                                <li><a class="dropdown-item"> Nueva Usuario</a></li>
+                                <li><a class="dropdown-item">Lista de usuarios</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link text-dark dropdown-toggle" role="button" data-toggle="dropdown">Reportes</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item">Fecha de vencimiento</a></li>
+                                <li><a class="dropdown-item">Inventario</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
