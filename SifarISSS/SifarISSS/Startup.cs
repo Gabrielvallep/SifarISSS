@@ -64,8 +64,8 @@ namespace SifarISSS
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
-
-                endpoints.MapAreaControllerRoute("Usuarios", "User", "{controller=User}/{action=CreateUser}/{id?}");
+                endpoints.MapAreaControllerRoute("ViewCreateUser", "Usuarios", "{controller=User}/{action=ViewCreateUser}/{id?}");
+                
                 endpoints.MapRazorPages();
             });
         }

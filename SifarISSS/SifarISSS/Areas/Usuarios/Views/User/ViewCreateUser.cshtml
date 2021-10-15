@@ -1,0 +1,23 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Crear Usuario";
+}
+<section class="container">
+    <form class="for" action="/" method="post">
+        <div class="form-text">
+            <h2>Ingrese los datos del nuevo usuario</h2>
+        </div>
+        <div class="mb-3 mt-3">
+            <label for="txtName" class="col-form-label">Nombre: </label>
+            <input type="text" name="name" id="txtName" class="form-control" placeholder="Ingrese el nombre de usuario" />
+        </div>
+        <div class="mb-3 ">
+            <label for="txtPassword" class="col-form-label">Contraseña: </label>
+            <input type="password" id="txtPassword" class="form-control" placeholder="Ingrese la contraseña" />
+        </div>
+        <button type="submit" class="btn btn-primary">Registrar</button>
+    </form>
+</section>

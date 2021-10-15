@@ -9,17 +9,18 @@ namespace SifarISSS.Areas.Usuarios.Controllers
     [Area("Usuarios")]
     public class UserController : Controller
     {
-        public IActionResult CreateUser()
+
+        public IActionResult ViewCreateUser()
         {
             return View();
         }
 
-        public IActionResult EditUser()
+        public IActionResult ViewEditUser()
         {
             return View();
         }
 
-        public IActionResult ListUsers()
+        public IActionResult ViewListUsers()
         {
             return View();
         }

@@ -157,4 +157,6 @@ C:\Users\gabriel\Desktop\git\SifarISSS\SifarISSS\SifarISSS\obj\Debug\net5.0\Sifa
 C:\Users\gabriel\Desktop\git\SifarISSS\SifarISSS\SifarISSS\obj\Debug\net5.0\ref\SifarISSS.dll
 C:\Users\gabriel\Desktop\git\SifarISSS\SifarISSS\SifarISSS\obj\Debug\net5.0\SifarISSS.pdb
 C:\Users\gabriel\Desktop\git\SifarISSS\SifarISSS\SifarISSS\obj\Debug\net5.0\SifarISSS.genruntimeconfig.cache
-C:\Users\gabriel\Desktop\git\SifarISSS\SifarISSS\SifarISSS\obj\Debug\net5.0\Razor\Areas\Usuarios\Views\User\UserRegister.cshtml.g.cs
+C:\Users\gabriel\Desktop\git\SifarISSS\SifarISSS\SifarISSS\obj\Debug\net5.0\Razor\Areas\Usuarios\Views\User\ViewCreateUser.cshtml.g.cs
+C:\Users\gabriel\Desktop\git\SifarISSS\SifarISSS\SifarISSS\obj\Debug\net5.0\Razor\Areas\Usuarios\Views\User\ViewEditUser.cshtml.g.cs
+C:\Users\gabriel\Desktop\git\SifarISSS\SifarISSS\SifarISSS\obj\Debug\net5.0\Razor\Areas\Usuarios\Views\User\ViewListUser.cshtml.g.cs
